@@ -1,0 +1,22 @@
+<Project Sdk="Microsoft.NET.Sdk">
+ <PropertyGroup>
+ <OutputType>WinExe</OutputType>
+ <TargetFramework>net8.0-windows</TargetFramework>
+ <UseWindowsForms>true</UseWindowsForms>
+ <Nullable>enable</Nullable>
+ <ImplicitUsings>enable</ImplicitUsings>
+ <ApplicationVisualStyles>false</ApplicationVisualStyles>
+ <!-- Disable implicit Include of Compile items so we can explicitly list files -->
+ <EnableDefaultCompileItems>false</EnableDefaultCompileItems>
+ </PropertyGroup>
+
+ <ItemGroup>
+ <Compile Include="Helpers\UiHelper.cs" />
+ <Compile Include="Program.cs" />
+ <Compile Include="Models\Vaga.cs" />
+ <Compile Include="Data\MockData.cs" />
+ <Compile Include="Helpers\ColorHelper.cs" />
+ <Compile Include="Forms\FormMain.cs" />
+ <Compile Include="Forms\FormProgress.cs" />
+ </ItemGroup>
+</Project>
