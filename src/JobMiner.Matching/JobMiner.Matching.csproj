@@ -1,0 +1,15 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <RootNamespace>JobMiner.Matching</RootNamespace>
+    <AssemblyName>JobMiner.Matching</AssemblyName>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\JobMiner.Core\JobMiner.Core.csproj" />
+  </ItemGroup>
+
+</Project>
